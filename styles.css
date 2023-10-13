@@ -1,9 +1,11 @@
 body {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .part-one {
     background-color: #1F2937;
+    
 }
 
 .heromain {
@@ -15,4 +17,8 @@ body {
 .herosecondary {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
 }
