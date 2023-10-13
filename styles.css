@@ -1,0 +1,18 @@
+body {
+    display: flex;
+}
+
+.part-one {
+    background-color: #1F2937;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.herosecondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
