@@ -69,6 +69,20 @@ button {
 
 /*BEGIN PART TWO CONTAINER*/
 
+.part-two {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color:#1F2937;
+    display: flex;
+    justify-content: center;
+}
+
 
 ul {
     list-style: none;
@@ -82,6 +96,7 @@ a {
 
 li,
 img {
-    width: 150px;
+    width: 200px;
     height: auto;
+    border: 2px solid;
 }
