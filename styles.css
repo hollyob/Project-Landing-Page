@@ -26,12 +26,20 @@ header {
 
 .header ul {
     display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    justify-content: space-between;
 }
 
 .header a {
     color: #f9faf8;
     font-size: 18px;
+    text-decoration: none;
 }
+
 
 .heroimg {
     display: flex;
@@ -45,7 +53,7 @@ header {
 }
 
 .part-one img {
-    width: 700px;
+    width: 500px;
     height: auto;
 }
 
@@ -56,6 +64,7 @@ button {
     font-weight: bold;
     padding: 20px 50px;
     border-radius: 15px;
+    border: 5px solid #3882f6;
 }
 
 .herosecondary {
@@ -83,20 +92,52 @@ h2 {
     justify-content: center;
 }
 
-
-ul {
+.thumbnails ul {
+    display: flex;
     list-style: none;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
+    gap: 20px;
 }
 
-a {
-    text-decoration: none;
+
+.thumbnails img {
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  width: 200px;
+  height: 160px;
 }
 
-li,
-img {
-    width: 200px;
-    height: auto;
-    border: 2px solid;
+
+
+/* USED TAILWIND TO FIX ISSUE... MUST UNDERSTAND WHAT WAS WRONG. 
+    I applied the border to the figure AND the image, so I had two borders going on.*/
+
+
+/*BEGIN PART THREE CONTAINER*/
+
+
+.part-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+  font-size: 36px;
+}
+
+.quotesource {
+  align-self: flex-end;
+}
+
+
+/*BEGIN PART FOUR CONTAINER*/
+
+.part-four {
+    display: flex;
 }
